@@ -1,211 +1,79 @@
-<<<<<<< HEAD
-
-        /* Donation Section Styles */
-        .donation-section {
-            padding: 60px 0;
-            background-color: #f8f9fa;
-        }
-
-        .section-title {
-            font-size: 2.5rem;
-            color: #333;
-            margin-bottom: 20px;
-            text-align: center;
-            animation: fadeInDown;
-            animation-duration: 1s;
-        }
-
-        .section-subtitle {
-            font-size: 1.25rem;
-            color: #666;
-            margin-bottom: 40px;
-            text-align: center;
-            animation: fadeInUp;
-            animation-duration: 1s;
-        }
-
-        .donation-container {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            animation: fadeIn;
-            animation-duration: 1s;
-        }
-
-        /* .progress-loader {
-=======
-/* donate file css */
-/* Donation Section Styles */
-.donation-section {
-    padding: 60px 0;
-    background-color: #f8f9fa;
-}
-
-.section-title {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
-    animation: fadeInDown;
-    animation-duration: 1s;
-}
-
-.section-subtitle {
-    font-size: 1.25rem;
-    color: #666;
-    margin-bottom: 40px;
-    text-align: center;
-    animation: fadeInUp;
-    animation-duration: 1s;
-}
-
-.donation-container {
+/* .container {
     background-color: #fff;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    animation: fadeIn;
-    animation-duration: 1s;
-}
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+} */
 
-/* .progress-loader {
->>>>>>> 22ea31142765fdb82d2119345e72fa31d5ecf585
-            text-align: center;
-            margin-bottom: 20px;
-        } */
-
-<<<<<<< HEAD
-        .honor-form {
-            display: none;
-            margin-top: 20px;
-        }
-
-        .honor-form fieldset {
-            margin-bottom: 20px;
-        }
-
-        .honor-form label {
-            font-size: 1rem;
-            color: #333;
-        }
-
-        .honor-form input,
-        .honor-form select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .honor-form button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .honor-form button:hover {
-            background-color: #0056b3;
-        }
-
- 
-        /* QR Code Scanner */
-        #qr-scanner {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        #qr-scanner img {
-            width: 200px;
-            height: auto;
-            cursor: pointer;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        #qr-scanner img:hover {
-            transform: scale(1.1);
-        }
-
-        #qr-reader {
-            display: none;
-            margin-top: 20px;
-        }
-
-        #qr-reader-results {
-            margin-top: 20px;
-            font-size: 1.2rem;
-            color: #333;
-        }
-    
-=======
-.honor-form {
-    display: none;
-    margin-top: 20px;
-}
-
-.honor-form fieldset {
-    margin-bottom: 20px;
-}
-
-.honor-form label {
-    font-size: 1rem;
+h1 {
+    text-align: center;
     color: #333;
 }
 
-.honor-form input,
-.honor-form select {
+p {
+    text-align: center;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select, textarea {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-.honor-form button {
-    background-color: #007bff;
+button {
+    background-color: #28a745;
     color: #fff;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.honor-form button:hover {
-    background-color: #0056b3;
+button:hover {
+    background-color: #218838;
 }
 
-
-/* QR Code Scanner */
-#qr-scanner {
+.qr-code {
     text-align: center;
     margin-top: 20px;
 }
 
-#qr-scanner img {
-    width: 200px;
-    height: auto;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+.qr-code img {
+    width: 150px;
+    height: 150px;
 }
 
-#qr-scanner img:hover {
-    transform: scale(1.1);
-}
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
 
-#qr-reader {
-    display: none;
-    margin-top: 20px;
-}
+    input, select, textarea {
+        font-size: 14px;
+    }
 
-#qr-reader-results {
-    margin-top: 20px;
-    font-size: 1.2rem;
-    color: #333;
+    button {
+        font-size: 16px;
+    }
 }
->>>>>>> 22ea31142765fdb82d2119345e72fa31d5ecf585
