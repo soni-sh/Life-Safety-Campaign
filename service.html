@@ -7,17 +7,20 @@
     <meta name="description" content="Patel Trushaben's website">
     <meta name="author" content="Patel Trushaben">
     <title>Life Safety Campaign</title>
-    <link rel="stylesheet" href="assets/css/stye.css">
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Swiper CSS -->
     <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
-
     <!-- Optional: Link for favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- Remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/stye.css">
+    <link rel="stylesheet" href="assets/css/service.css">
 </head>
 
 <body>
@@ -32,7 +35,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="ri-menu-line menu-icon"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -46,16 +50,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="service.html">Services</a>
                     </li>
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                        </ul>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -78,7 +72,7 @@
                     <img src="assets/images/services-banner.png" alt="About Us">
                     <div class="content-overlay">
                         <h2>Services </h2>
-                        <p><a href="index.html">Home</a> / Services</p> <!-- Corrected separator in the breadcrumb -->
+                        <p><a href="index.html">Home</a> / Services</p>
                     </div>
                 </div>
             </div>
@@ -321,75 +315,6 @@
     </section>
     <!-- Service Page Section End -->
 
-    <style>
-        /* Service Cards Section */
-        .service-cards-detail .card {
-            border: none;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 2rem;
-            transition: transform 0.3s ease;
-        }
-
-        .service-cards-detail .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .service-cards-detail .card-body {
-            padding: 20px;
-            flex: 1;
-        }
-
-        .service-cards-detail .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #FF6F61;
-            margin-bottom: 1rem;
-        }
-
-        .service-cards-detail .card-text {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .service-cards-detail ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .service-cards-detail ul li {
-            margin-bottom: 0.5rem;
-        }
-
-        .service-cards-detail .btn-primary {
-            background-color: #007bff;
-            border: none;
-        }
-
-        /* Image Style */
-        .card-img-left {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            border-radius: 8px;
-        }
-
-        @media (min-width: 768px) {
-            .service-cards-detail .card {
-                flex-direction: row;
-            }
-
-            .card-img-left {
-                width: 50%;
-            }
-        }
-    </style>
-
-
-
-
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section footer-logo">
@@ -426,12 +351,6 @@
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">LinkedIn</a></li>
                 </ul>
-                <!-- <div class="social-icons">
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
-        </div> -->
             </div>
         </div>
         <div class="copyright">

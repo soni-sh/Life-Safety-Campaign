@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,11 +16,19 @@
 
     <!-- Optional: Link for favicon -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="assets/css/stye.css">
     <link rel="stylesheet" href="assets/css/donate.css">
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 22ea31142765fdb82d2119345e72fa31d5ecf585
 </head>
+
 <body>
     <!-- Header Section start -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -29,8 +38,11 @@
                 <span class="fw-bold">Life Safety Campaign</span>
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="ri-menu-line menu-icon"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -65,14 +77,18 @@
             <div class="row">
                 <div class="col-lg-12 animate__animated animate__fadeInLeft">
                     <h2 class="section-title">Make a Donation</h2>
-                    <p class="section-subtitle">Your contribution can make a significant difference in the lives of pregnant women. Every donation helps us provide essential care and support for safe deliveries.</p>
+                    <p class="section-subtitle">Your contribution can make a significant difference in the lives of
+                        pregnant women. Every donation helps us provide essential care and support for safe deliveries.
+                    </p>
                     <div class="donation-container">
                         <!-- <div class="progress-loader">Loading...</div> -->
                         <fieldset>
                             <input type="checkbox" name="show_honor_fields" id="show_honor_fields">
-                            <label for="show_honor_fields">Yes, my gift is in honor or in memory of <span id="honor_name">someone special</span>.</label>
+                            <label for="show_honor_fields">Yes, my gift is in honor or in memory of <span
+                                    id="honor_name">someone special</span>.</label>
                         </fieldset>
-                        <div class="honor-form" style="display:none;">
+
+                        <!-- <div class="honor-form" style="display:none;">
                             <fieldset>
                                 <label for="type">Honor Gift Type:</label>
                                 <select name="gift_type" id="gift_type">
@@ -439,13 +455,15 @@
                                 </div>
                             </fieldset>
                             <button id="updateform">Enter Payment Information</button>
-                        </div>
-                        <div id="donately_form">
+                        </div> -->
+
+                        <!-- <div id="donately_form">
                             <script class="donately-donation-form" src="https://s3-us-west-1.amazonaws.com/static-dntly-com/form.js" type="text/javascript" data-donately-ssl="true" async="async" data-donately-id="198" data-donately-address="true" data-donately-comment="true" data-donately-phone="true"></script>
-                        </div>
+                        </div> -->
                         <div id="qr-scanner">
                             <h4>Scan QR Code to Donate</h4>
-                            <img src="assets/images/QR_code_for_mobile_English_Wikipedia.svg_.png" alt="QR Code Scanner" onclick="toggleQRReader()">
+                            <img src="assets/images/QR_code_for_mobile_English_Wikipedia.svg_.png" alt="QR Code Scanner"
+                                onclick="toggleQRReader()">
                             <div id="qr-reader"></div>
                             <div id="qr-reader-results"></div>
                         </div>
@@ -457,56 +475,58 @@
 
     <footer class="footer">
         <div class="footer-container">
-          <div class="footer-section footer-logo">
-            <a href="index.html" class="footer-logo-link">
-              <img src="assets/images/logo-removebg-preview.png" height="100px" width="auto" alt="Logo" class="footer-logo-img" />
-            </a>
-            <div class="footer-logo-text">
-              <h4>Life Safety Campaign</h4>
+            <div class="footer-section footer-logo">
+                <a href="index.html" class="footer-logo-link">
+                    <img src="assets/images/logo-removebg-preview.png" height="100px" width="auto" alt="Logo"
+                        class="footer-logo-img" />
+                </a>
+                <div class="footer-logo-text">
+                    <h4>Life Safety Campaign</h4>
+                </div>
             </div>
-          </div>
-          <div class="footer-section">
-            <h4>Contact Us</h4>
-            <ul>
-              <li><a href="mailto:info@example.com">Email: info@example.com</a></li>
-              <li><a href="tel:+1234567890">Phone: +123 456 7890</a></li>
-              <li>Address: 1234 Street, City, Country</li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="service.html">Services</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h4>Follow Us</h4>
-            <ul>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
-            </ul>
-            <!-- <div class="social-icons">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="mailto:info@example.com">Email: info@example.com</a></li>
+                    <li><a href="tel:+1234567890">Phone: +123 456 7890</a></li>
+                    <li>Address: 1234 Street, City, Country</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+                <!-- <div class="social-icons">
               <a href="#">Facebook</a>
               <a href="#">Twitter</a>
               <a href="#">Instagram</a>
               <a href="#">LinkedIn</a>
             </div> -->
-          </div>
+            </div>
         </div>
         <div class="copyright">
-          © 2025 Life Safety Campaign | All Rights Reserved. Designed by
-          <a href="https://www.bhoomitechzone.in/">Bhoomi Techzone Pvt. Ltd.</a>
+            © 2025 Life Safety Campaign | All Rights Reserved. Designed by
+            <a href="https://www.bhoomitechzone.in/">Bhoomi Techzone Pvt. Ltd.</a>
         </div>
-      </footer>
+    </footer>
 
     <!-- WhatsApp Icon -->
     <a href="https://wa.me/your-phone-number" target="_blank" id="whatsapp-icon" aria-label="Chat with us on WhatsApp">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEOklEQVR4nO1ZXYhUdRT/q2tpZKW7zjmzLe2LIa1zzqyOSr20Dz1Gj2IfFgUlUWFUSBLE6kuEZWCKzjl3caMgaIkepKKMCkKSog8IeggpK0JCM2hTWj+mif+dbde9987O/37MnSE6cF7m4/x/v/85556Pa8z/0lwGx8vXWTXdLr1ja/tR+F5U9lD4GCj/jsr1yxWEz/jfCSt65S19Uil2FPTQxNAVqHwfKn2EyrUgYAetodCHlriRyuL8kE9sWoRCj4DwzwlARyoo/4TKD1vbbcWOMrwBhL7OCjiGiXxZFFqXPfK6WYBCT4Dw+XaBx9lcOQ/C2+yZ2YCf2LTIT7w2A8ewN14xoyM96cCPjvSA0Ft5g8cZEvRm8rxohM2hToHHWfUShRMqP9kF4OvTebEtHvhqaX0eCYvu+TDl/nTyk5a+6jRoDHvhC6d8sEXK7VboHAjtAaWnQfmlhNW4HkeLHm1t2R44VVjhyaBLQei19nuBfpy37Wj0Ng43ofRQ2HPDG3IJJ6+8Zb7w+bi1ETrZ7BZQ6LMcSHzQvCV2iWPh19N6MKXWCl4JIm7P7+cdDNBzzQis2rvqSlD+rd0kCkJ3R92e52RAePe8rUejNW4rARCWKAKfOhI40gw/CO/IIYTqIHQ06vAzjiF0weZL6P9VviOPWoCNGnQ64HqzEIX/jmFgV8iDwrvzAI8NrVnMM4ev2LvxmlgGhM5erzRwOQFrI8sxE1to79jqZTOHr9w/dHWCOHwv2OZilW61IZY7AStJDgal7SYgoHR/DrlQmxNC/sFCp2IbEroEUr49qqbYFri59/gdFDqclKjFGjzTEjia6DaEJ1ceXFMOkaiW1qPw8YjfH/l31u07OHyjrT/zkXV+jKLQy8ldSifRW3NT0Obg+OCSgtIzM94VPn7DAVoe/F3v2Np+vzUX/itNIUvXxwj/am89ZNgYU5TKVeDx5uCTKyig9KLLWQWlu0J/LkqlD5UupiHRGHL4TpNQQFic8u4AFyIN2PhM5YVZIq8m2UqD0rdpWhlT1NI9WRCYTrRTKPzUwJ6bl7qAL3q01cWuxdjcyuhIDwp/nxWJaW+cRuV94JU3Rh3ZO7Z6GQo/79bK0ImWm2y7Jc6SQMAr3/mzs/CzILQThcfdm0h/DniwpStBSo+1i0Bea5XDnQaLoTDkqX4tD7u+dfmz+wjQo8ZFClW6rQtDR5zAd2AocdGJWOt1VP6mC0DXfRU6FOsFh33tGWesbFvIKE8VhB43cQW80gOdB0+fOz1togSF3nBw61lQeh+UXkChH7IDTyf8IhWcspxl1CyMrIjCk6D8rt33FKqlW+bEpF1iebzZ7ioTdbFCl2xj5m/ZUr/olspiUPoFlf5ApbftrOv3Lo5JNOANrZheTe4D4U8aA8xcUvYzO0mBUtX2801b4qRii1jWb8rttmO5VK7N0qb5r8k/XsTWLcqkXYQAAAAASUVORK5CYII=" alt="whatsapp--v1">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEOklEQVR4nO1ZXYhUdRT/q2tpZKW7zjmzLe2LIa1zzqyOSr20Dz1Gj2IfFgUlUWFUSBLE6kuEZWCKzjl3caMgaIkepKKMCkKSog8IeggpK0JCM2hTWj+mif+dbde9987O/37MnSE6cF7m4/x/v/85556Pa8z/0lwGx8vXWTXdLr1ja/tR+F5U9lD4GCj/jsr1yxWEz/jfCSt65S19Uil2FPTQxNAVqHwfKn2EyrUgYAetodCHlriRyuL8kE9sWoRCj4DwzwlARyoo/4TKD1vbbcWOMrwBhL7OCjiGiXxZFFqXPfK6WYBCT4Dw+XaBx9lcOQ/C2+yZ2YCf2LTIT7w2A8ewN14xoyM96cCPjvSA0Ft5g8cZEvRm8rxohM2hToHHWfUShRMqP9kF4OvTebEtHvhqaX0eCYvu+TDl/nTyk5a+6jRoDHvhC6d8sEXK7VboHAjtAaWnQfmlhNW4HkeLHm1t2R44VVjhyaBLQei19nuBfpy37Wj0Ng43ofRQ2HPDG3IJJ6+8Zb7w+bi1ETrZ7BZQ6LMcSHzQvCV2iWPh19N6MKXWCl4JIm7P7+cdDNBzzQis2rvqSlD+rd0kCkJ3R92e52RAePe8rUejNW4rARCWKAKfOhI40gw/CO/IIYTqIHQ06vAzjiF0weZL6P9VviOPWoCNGnQ64HqzEIX/jmFgV8iDwrvzAI8NrVnMM4ev2LvxmlgGhM5erzRwOQFrI8sxE1to79jqZTOHr9w/dHWCOHwv2OZilW61IZY7AStJDgal7SYgoHR/DrlQmxNC/sFCp2IbEroEUr49qqbYFri59/gdFDqclKjFGjzTEjia6DaEJ1ceXFMOkaiW1qPw8YjfH/l31u07OHyjrT/zkXV+jKLQy8ldSifRW3NT0Obg+OCSgtIzM94VPn7DAVoe/F3v2Np+vzUX/itNIUvXxwj/am89ZNgYU5TKVeDx5uCTKyig9KLLWQWlu0J/LkqlD5UupiHRGHL4TpNQQFic8u4AFyIN2PhM5YVZIq8m2UqD0rdpWhlT1NI9WRCYTrRTKPzUwJ6bl7qAL3q01cWuxdjcyuhIDwp/nxWJaW+cRuV94JU3Rh3ZO7Z6GQo/79bK0ImWm2y7Jc6SQMAr3/mzs/CzILQThcfdm0h/DniwpStBSo+1i0Bea5XDnQaLoTDkqX4tD7u+dfmz+wjQo8ZFClW6rQtDR5zAd2AocdGJWOt1VP6mC0DXfRU6FOsFh33tGWesbFvIKE8VhB43cQW80gOdB0+fOz1togSF3nBw61lQeh+UXkChH7IDTyf8IhWcspxl1CyMrIjCk6D8rt33FKqlW+bEpF1iebzZ7ioTdbFCl2xj5m/ZUr/olspiUPoFlf5ApbftrOv3Lo5JNOANrZheTe4D4U8aA8xcUvYzO0mBUtX2801b4qRii1jWb8rttmO5VK7N0qb5r8k/XsTWLcqkXYQAAAAASUVORK5CYII="
+            alt="whatsapp--v1">
     </a>
 
     <!-- Google Translate Widget -->
@@ -519,7 +539,8 @@
             }, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -548,4 +569,5 @@
         }
     </script>
 </body>
+
 </html>

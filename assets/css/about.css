@@ -1,0 +1,68 @@
+/* About Page Section */
+.about-page {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FF6F61;
+    margin-bottom: 1rem;
+}
+
+.about-subtitle {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+}
+
+.about-section-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #FF6F61;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #343a40;
+    margin-bottom: 1.5rem;
+}
+
+.about-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-list li {
+    margin-bottom: 0.5rem;
+}
+
+.about-img,
+.team-img {
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.team-img {
+    border-radius: 50% !important;
+    max-width: 99%;
+    height: 100px !important;
+}
+
+.img-fluid {
+    max-width: 99%;
+    height: auto;
+}
+
+.team-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+.team-role {
+    font-size: 1rem;
+    color: #6c757d;
+}
