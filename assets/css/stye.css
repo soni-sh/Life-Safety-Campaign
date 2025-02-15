@@ -7,10 +7,16 @@
     font-family: "Poppins", serif;
 }
 
+.menu-icon {
+    color: white;
+    font-size: 30px;
+}
+
 .goog-te-gadget-simple {
     padding-top: 10px !important;
     /* margin-left: 20px; */
 }
+
 .goog-te-gadget-simple {
     background-color: #323366 !important;
     border-left: 1px solid #fff !important;
@@ -21,42 +27,48 @@
     padding-top: 1px;
     padding-bottom: 2px;
     cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(221, 209, 209, 0.3); /* Default box-shadow */
-    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for box-shadow */
-  }
-  
-  /* Hover animation */
-  .goog-te-gadget-simple:hover {
-    box-shadow: 0px 8px 16px #fff; /* Stronger shadow on hover */
-  }
-  
-  /* Focus animation (if you want it to animate when focused too) */
-  .goog-te-gadget-simple:focus {
+    box-shadow: 0px 4px 8px rgba(221, 209, 209, 0.3);
+    /* Default box-shadow */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Smooth transition for box-shadow */
+}
+
+/* Hover animation */
+.goog-te-gadget-simple:hover {
+    box-shadow: 0px 8px 16px #fff;
+    /* Stronger shadow on hover */
+}
+
+/* Focus animation (if you want it to animate when focused too) */
+.goog-te-gadget-simple:focus {
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
-  }
-  
-      .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
-        color: #fff !important;
-        font-size: 17px !important;
-  
-      }
-  
-      .goog-te-gadget-simple img {
+}
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed {
+    color: #fff !important;
+    font-size: 17px !important;
+
+}
+
+.goog-te-gadget-simple img {
     background-image: url('assets/images/icons8-browser-20.png') !important;
-    background-size: cover; /* Ensure the image fits well */
-    width: 20px; /* You may adjust the size as needed */
-    height: 20px; /* Adjust according to the icon's size */
-  }
-  
-  /* Hide the dropdown arrow */
-  span[aria-hidden="true"] {
+    background-size: cover;
+    /* Ensure the image fits well */
+    width: 20px;
+    /* You may adjust the size as needed */
+    height: 20px;
+    /* Adjust according to the icon's size */
+}
+
+/* Hide the dropdown arrow */
+span[aria-hidden="true"] {
     display: none !important;
-  }
-  
-      .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span,
-      samp:nth-child(2) {
-        border-left: none !important;
-      }
+}
+
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span,
+samp:nth-child(2) {
+    border-left: none !important;
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -104,7 +116,8 @@
 
 /* Mobile responsiveness */
 .navbar-toggler-icon {
-    background-color: #C00F48;
+    background-color: white;
+    color: white;
 }
 
 /* On hover, change color and add underline */
@@ -190,36 +203,39 @@
 .swiper {
     width: 100%;
     height: 100% !important;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 50% !important;
     /* height: 200px; */
     object-fit: cover;
-  }
-  .swiper-button-next, .swiper-button-prev , .swiper-pagination{
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
     color: #fff !important;
-  }
+}
 
 
 
 
 
-  
 
-  /* home content  */
-  .section-about {
+
+/* home content  */
+.section-about {
     padding: 60px 0;
     background-color: #f4f4f4;
     position: relative;
@@ -250,22 +266,29 @@
     font-weight: bold;
     color: #222;
     margin-bottom: 15px;
-    opacity: 0; /* Initially hidden for animation */
-    transform: translateY(50px); /* Initial position for animation */
-    animation: fadeInUp 1s forwards; /* Animation for title */
+    opacity: 0;
+    /* Initially hidden for animation */
+    transform: translateY(50px);
+    /* Initial position for animation */
+    animation: fadeInUp 1s forwards;
+    /* Animation for title */
 }
 
 .text-custom {
-    color: #ff6f61; /* Custom color for emphasis */
+    color: #ff6f61;
+    /* Custom color for emphasis */
 }
 
 .section_subtitle {
     font-size: 18px;
     color: #777;
     margin-bottom: 30px;
-    opacity: 0; /* Initially hidden for animation */
-    transform: translateY(30px); /* Initial position for animation */
-    animation: fadeInUp 1s 0.5s forwards; /* Animation for subtitle */
+    opacity: 0;
+    /* Initially hidden for animation */
+    transform: translateY(30px);
+    /* Initial position for animation */
+    animation: fadeInUp 1s 0.5s forwards;
+    /* Animation for subtitle */
 }
 
 .section-title-border {
@@ -274,8 +297,10 @@
     background-color: #ff6f61;
     margin: 20px auto;
     opacity: 0;
-    transform: scaleX(0); /* Initially scale X to 0 for animation */
-    animation: scaleIn 0.8s 1.3s forwards; /* Animation for the border */
+    transform: scaleX(0);
+    /* Initially scale X to 0 for animation */
+    animation: scaleIn 0.8s 1.3s forwards;
+    /* Animation for the border */
 }
 
 /* Animation Definitions */
@@ -284,6 +309,7 @@
         opacity: 0;
         transform: translateY(50px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -295,6 +321,7 @@
         opacity: 0;
         transform: scaleX(0);
     }
+
     100% {
         opacity: 1;
         transform: scaleX(1);
@@ -325,286 +352,292 @@
 
 /* -----------------------card------------------- */
 /* <style> */
-        /* Base styling */
-        .card-section {
-            background-color: #f7f7f7;
-            padding: 30px 0;
-        }
-    
-        .card-section .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-    
-        .cardRow {
-            padding: 15px 0px;
-        }
-    
-        .card {
-            width: 100%;
-            height: 100%;
-            background-color: #ffffff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transform: translateY(0);
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-        }
-    
-        .card-img-top {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-    
-        .card:hover .card-img-top {
-            transform: scale(1.1);
-        }
-    
-        .card-body {
-            padding: 20px;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .card-title {
-            font-size: 1.2rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: #333;
-            transition: color 0.3s ease;
-        }
-    
-        .card-title:hover {
-            color: #007bff;
-        }
-    
-        .card-text {
-            font-size: 0.9rem;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 20px;
-            flex: 1;
-        }
-    
-        .btn-primary {
-            border-color: #FF6F61 !important;
-        }
-    
-        .btn {
-            background-color: #FF6F61 !important;
-            color: #fff;
-            padding: 10px 20px;
-            text-transform: uppercase;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-            text-decoration: none;
-            margin-top: auto;
-        }
-    
-        .btn:hover {
-            background-color: #0056b3 !important;
-            border-color: #0056b3 !important;
-        }
-    
-        /* Responsive styling */
-        @media (max-width: 1199px) {
-            .container {
-                padding: 0 20px;
-            }
-        }
-    
-        @media (max-width: 767px) {
-            .col-sm-12 {
-                margin-bottom: 30px;
-            }
-    
-            .card {
-                margin-bottom: 20px;
-            }
-        }
-    
-        /* Animation on card loading */
-        @keyframes fadeInUp {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    
-        .card {
-            animation: fadeInUp 0.8s ease-out;
-        }
-    
-        /* Hover effects for each individual card */
-        .card:nth-child(1):hover {
-            background-color: #e8f4f8;
-        }
-    
-        .card:nth-child(2):hover {
-            background-color: #f1e4d9;
-        }
-    
-        .card:nth-child(3):hover {
-            background-color: #f0f8e9;
-        }
-    
-        .card:nth-child(4):hover {
-            background-color: #fce4e6;
-        }
-    
-        .card:nth-child(5):hover {
-            background-color: #fff4e1;
-        }
-    
-        .card:nth-child(6):hover {
-            background-color: #d4ebf2;
-        }
-    
-        .card:nth-child(7):hover {
-            background-color: #e7e1f8;
-        }
-    
-        .card:nth-child(8):hover {
-            background-color: #e9f5f5;
-        }
-    
-        /* Optional: Add smooth scrolling for card section */
-        html {
-            scroll-behavior: smooth;
-        }
-    /* </style> */
+/* Base styling */
+.card-section {
+    background-color: #f7f7f7;
+    padding: 30px 0;
+}
+
+.card-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardRow {
+    padding: 15px 0px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.card-title:hover {
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.btn-primary {
+    border-color: #FF6F61 !important;
+}
+
+.btn {
+    background-color: #FF6F61 !important;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.btn:hover {
+    background-color: #0056b3 !important;
+    border-color: #0056b3 !important;
+}
+
+/* Responsive styling */
+@media (max-width: 1199px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Animation on card loading */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Hover effects for each individual card */
+.card:nth-child(1):hover {
+    background-color: #e8f4f8;
+}
+
+.card:nth-child(2):hover {
+    background-color: #f1e4d9;
+}
+
+.card:nth-child(3):hover {
+    background-color: #f0f8e9;
+}
+
+.card:nth-child(4):hover {
+    background-color: #fce4e6;
+}
+
+.card:nth-child(5):hover {
+    background-color: #fff4e1;
+}
+
+.card:nth-child(6):hover {
+    background-color: #d4ebf2;
+}
+
+.card:nth-child(7):hover {
+    background-color: #e7e1f8;
+}
+
+.card:nth-child(8):hover {
+    background-color: #e9f5f5;
+}
+
+/* Optional: Add smooth scrolling for card section */
+html {
+    scroll-behavior: smooth;
+}
+
+/* </style> */
 
 
 
-    /* -----------------video content------------------- */
+/* -----------------video content------------------- */
 
 /* Video Section */
 .video {
-  padding: 60px;
-  background-color: #F4F4F4;
+    padding: 60px;
+    background-color: #F4F4F4;
 }
 
 .video-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio */
 }
 
 .video-container iframe {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Content Section */
 .content-section {
-  /* padding: 20px; */
-  /* background-color: #f8f9fa; */
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+    /* padding: 20px; */
+    /* background-color: #f8f9fa; */
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .content-section h3 {
-  font-size: 2rem;
-  color: #1e2a47;
-  margin-bottom: 20px;
-  font-weight: bold;
-  text-transform: uppercase;
+    font-size: 2rem;
+    color: #1e2a47;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .content-section p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.8;
-  margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
-  .video-container iframe {
-      width: 100%;
-      height: 100%;
-  }
+    .video-container iframe {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 992px) {
-  .row {
-      flex-direction: column-reverse; /* Stacks the video and content on smaller screens */
-  }
+    .row {
+        flex-direction: column-reverse;
+        /* Stacks the video and content on smaller screens */
+    }
 
-  .content-section h3 {
-      font-size: 1.8rem;
-  }
+    .content-section h3 {
+        font-size: 1.8rem;
+    }
 
-  .content-section p {
-      font-size: 0.9rem;
-  }
+    .content-section p {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 768px) {
-  .content-section {
-      padding: 20px 15px;
-  }
+    .content-section {
+        padding: 20px 15px;
+    }
 
-  .content-section h3 {
-      font-size: 1.6rem;
-  }
+    .content-section h3 {
+        font-size: 1.6rem;
+    }
 
-  .content-section p {
-      font-size: 0.9rem;
-  }
+    .content-section p {
+        font-size: 0.9rem;
+    }
 }
 
 @media (max-width: 576px) {
-  .video-container {
-      padding-top: 75%; /* 4:3 Aspect Ratio for small screens */
-  }
+    .video-container {
+        padding-top: 75%;
+        /* 4:3 Aspect Ratio for small screens */
+    }
 
-  .content-section {
-      text-align: center;
-  }
+    .content-section {
+        text-align: center;
+    }
 
-  .content-section h3 {
-      font-size: 1.4rem;
-  }
+    .content-section h3 {
+        font-size: 1.4rem;
+    }
 
-  .content-section p {
-      font-size: 0.85rem;
-  }
+    .content-section p {
+        font-size: 0.85rem;
+    }
 }
 
 
 /* testimonial */
 
 
-  /* ------footer---------- */
-  .footer {
+/* ------footer---------- */
+.footer {
     background-color: #323366;
     color: #fff;
     padding: 30px 0;
     text-align: center;
 }
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -612,54 +645,66 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .footer-section {
     flex: 1;
     margin: 10px;
     min-width: 200px;
 }
+
 .footer-section h4 {
     margin-bottom: 10px;
 }
+
 .footer-section ul {
     list-style: none;
     padding: 0;
 }
+
 .footer-section ul li {
     margin: 5px 0;
 }
+
 .footer-section ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 .footer-section ul li a:hover {
     text-decoration: underline;
 }
+
 .social-icons {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     /* margin-top: 20px; */
 }
+
 .social-icons a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
     font-size: 18px;
 }
+
 .social-icons a:hover {
     color: #ff6347;
 }
+
 .copyright {
     background-color: #FF6F61;
     padding: 10px;
     /* margin-top: 20px; */
     /* font-size: 14px; */
 }
-.copyright a{
+
+.copyright a {
     color: #fff;
     font-weight: 600;
     font-family: cursive;
     text-decoration: none;
 }
+
 /* .footer-image img {
     max-width: 100%;
     height: auto;
@@ -670,6 +715,7 @@
         flex-direction: column;
         align-items: center;
     }
+
     .footer-section {
         margin: 20px 0;
     }
@@ -681,14 +727,16 @@
 .about-banner {
     position: relative;
     width: 100%;
-    height: 400px !important; /* Adjust based on your design */
+    /* height: 400px !important; */
+    /* Adjust based on your design */
 }
 
 .about-banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(60%); /* Reduces brightness of the image */
+    filter: brightness(60%);
+    /* Reduces brightness of the image */
 }
 
 .content-overlay {
@@ -711,11 +759,13 @@
 .content-overlay p {
     font-size: 16px;
 }
-.content-overlay p a{
+
+.content-overlay p a {
     color: #FF6F61;
     text-decoration: none;
 }
-.content-overlay p a:hover{
+
+.content-overlay p a:hover {
     text-decoration: underline;
     color: #fff;
 }
@@ -726,11 +776,14 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%); /* Reduces brightness of the image */
+        filter: brightness(60%);
+        /* Reduces brightness of the image */
     }
+
     .content-overlay h2 {
         font-size: 2.5rem;
     }
+
     .content-overlay p {
         font-size: 12px;
     }
@@ -741,11 +794,14 @@
     .content-overlay h2 {
         font-size: 2rem;
     }
+
     .content-overlay p {
         font-size: 10px;
     }
+
     .content-overlay {
-        top: 55%; /* Adjust overlay position for smaller screens */
+        top: 55%;
+        /* Adjust overlay position for smaller screens */
         padding: 15px;
     }
 }
@@ -755,18 +811,24 @@
         width: 100%;
         height: 200px !important;
         object-fit: cover;
-        filter: brightness(60%); /* Reduces brightness of the image */
+        filter: brightness(60%);
+        /* Reduces brightness of the image */
     }
+
     .content-overlay h2 {
         font-size: 1.5rem;
     }
+
     .content-overlay p {
         font-size: 8px;
     }
+
     .content-overlay {
-        top: 50%; /* Ensure overlay stays centered */
+        top: 50%;
+        /* Ensure overlay stays centered */
         padding: 10px;
     }
+
     .content-overlay {
         position: absolute;
         top: 70%;
@@ -778,40 +840,49 @@
         /* background-color: rgba(59, 48, 48, 0.233);  */
         /* border-radius: 8px; */
     }
-    
+
 }
 
 /* whatsapp icon */
 /* General styles */
 #whatsapp-icon {
     position: fixed;
-    bottom: 20px; /* Distance from the bottom of the screen */
-    right: 20px; /* Distance from the right side of the screen */
-    z-index: 9999; /* Make sure it's always on top */
+    bottom: 20px;
+    /* Distance from the bottom of the screen */
+    right: 20px;
+    /* Distance from the right side of the screen */
+    z-index: 9999;
+    /* Make sure it's always on top */
 }
 
 /* Make the image responsive */
 #whatsapp-icon img {
-    width: 50px; /* Default size for desktop */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease-in-out; /* Smooth zoom effect on hover */
+    width: 50px;
+    /* Default size for desktop */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out;
+    /* Smooth zoom effect on hover */
 }
 
 /* Media query for tablet devices */
 @media (max-width: 768px) {
     #whatsapp-icon img {
-        width: 45px; /* Slightly smaller size for tablets */
+        width: 45px;
+        /* Slightly smaller size for tablets */
     }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
     #whatsapp-icon img {
-        width: 40px; /* Smaller size for mobile */
+        width: 40px;
+        /* Smaller size for mobile */
     }
 }
 
 /* Optional: Add hover effect for interactivity */
 #whatsapp-icon img:hover {
-    transform: scale(1.1); /* Zoom effect on hover */
+    transform: scale(1.1);
+    /* Zoom effect on hover */
 }

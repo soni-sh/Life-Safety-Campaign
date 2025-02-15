@@ -1,0 +1,104 @@
+/* donate file css */
+/* Donation Section Styles */
+.donation-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: center;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+.donation-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn;
+    animation-duration: 1s;
+}
+
+/* .progress-loader {
+            text-align: center;
+            margin-bottom: 20px;
+        } */
+
+.honor-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.honor-form fieldset {
+    margin-bottom: 20px;
+}
+
+.honor-form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.honor-form input,
+.honor-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.honor-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.honor-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* QR Code Scanner */
+#qr-scanner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#qr-scanner img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#qr-scanner img:hover {
+    transform: scale(1.1);
+}
+
+#qr-reader {
+    display: none;
+    margin-top: 20px;
+}
+
+#qr-reader-results {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
